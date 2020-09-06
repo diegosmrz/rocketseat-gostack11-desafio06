@@ -3,6 +3,10 @@
 </h1>
 
 <p align="center">
+  
+  <img alt="GitHub language count" src="https://img.shields.io/github/last-commit/diegomrz/rocketseat-gostack11-desafio06">
+  
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/diegomrz/rocketseat-gostack11-desafio06">
 
   <a href="https://www.linkedin.com/in/diegomrz/">
     <img alt="Made by diegomrz" src="https://img.shields.io/badge/linkedin-diegomrz-blue">
