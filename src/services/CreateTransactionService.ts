@@ -24,7 +24,7 @@ class CreateTransactionService {
     const { total } = await transactionRepository.getBalance();
 
     if (total < value && type === 'outcome') {
-      throw new AppError('Invalid balance value.');
+      throw new AppError('Invalid balance value.', 400);
     }
 
     let categoryTransaction = await categoryRepository.findOne({
