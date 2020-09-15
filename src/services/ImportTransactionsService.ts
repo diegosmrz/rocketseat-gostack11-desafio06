@@ -66,7 +66,7 @@ class ImportTransactionsService {
       transactions.map(transaction => ({
         title: transaction.title,
         type: transaction.type,
-        values: transaction.value,
+        value: transaction.value,
         category: finalCategories.find(
           category => category.title === transaction.category,
         ),
