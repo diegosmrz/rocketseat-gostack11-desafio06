@@ -16,7 +16,7 @@ class ImportTransactionsService {
   async execute(filePath: string): Promise<Transaction[]> {
     const transactionRepository = getCustomRepository(TransactionRepository);
     const categoryRepository = getRepository(Category);
-    const contactsReadStream = fs.createReadStream('filePath');
+    const contactsReadStream = fs.createReadStream(filePath);
     const parsers = csvParse({
       from_line: 2,
     });
